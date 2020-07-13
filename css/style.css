@@ -1,0 +1,47 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden hidden;
+}
+
+.video-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .h1-img {
+      position: relative;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 2;
+    }
+
+    .h2-img {position:fixed;
+      bottom: -1%;
+        right:0;
+        z-index:3;
+        overflow:hidden;
+        visibility:visible !important;
+      }
+
+      .logo {
+        position: fixed;
+        left: 35%;
+        top: 35%;
+        z-index: 5;
+      }
